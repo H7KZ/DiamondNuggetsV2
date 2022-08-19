@@ -11,7 +11,7 @@ import static cz.kominekjan.diamondnuggets.DiamondNuggets.Nugget;
 
 public class UseListener implements Listener {
 
-    public UseListener(DiamondNuggets plugin) {
+    public UseListener(@SuppressWarnings("unused") DiamondNuggets plugin) {
     }
 
     @EventHandler

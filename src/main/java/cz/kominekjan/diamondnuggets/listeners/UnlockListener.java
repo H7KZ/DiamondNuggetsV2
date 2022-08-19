@@ -13,6 +13,7 @@ import org.bukkit.event.player.PlayerJoinEvent;
 
 public class UnlockListener implements Listener {
 
+    @SuppressWarnings("unused")
     public UnlockListener(DiamondNuggets plugin) {
     }
 

@@ -7,6 +7,7 @@ import org.bukkit.event.inventory.BrewingStandFuelEvent;
 
 import static cz.kominekjan.diamondnuggets.DiamondNuggets.Nugget;
 
+@SuppressWarnings("unused")
 public class BrewListener implements Listener {
 
     public BrewListener(DiamondNuggets plugin) {

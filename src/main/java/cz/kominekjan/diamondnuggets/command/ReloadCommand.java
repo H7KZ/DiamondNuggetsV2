@@ -6,8 +6,6 @@ import cz.kominekjan.diamondnuggets.Init;
 import cz.kominekjan.diamondnuggets.item.Nugget;
 import cz.kominekjan.diamondnuggets.recipes.NuggetRecipe;
 import org.bukkit.ChatColor;
-import org.bukkit.NamespacedKey;
-import org.bukkit.OfflinePlayer;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -16,7 +14,6 @@ import org.bukkit.event.HandlerList;
 import org.jetbrains.annotations.NotNull;
 
 import java.sql.Time;
-import java.util.Objects;
 
 import static cz.kominekjan.diamondnuggets.DiamondNuggets.Plugin;
 

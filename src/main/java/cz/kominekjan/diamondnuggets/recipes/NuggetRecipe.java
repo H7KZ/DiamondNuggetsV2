@@ -3,7 +3,6 @@ package cz.kominekjan.diamondnuggets.recipes;
 import org.bukkit.Material;
 import org.bukkit.entity.HumanEntity;
 import org.bukkit.inventory.*;
-import org.bukkit.inventory.meta.KnowledgeBookMeta;
 
 import static cz.kominekjan.diamondnuggets.DiamondNuggets.*;
 

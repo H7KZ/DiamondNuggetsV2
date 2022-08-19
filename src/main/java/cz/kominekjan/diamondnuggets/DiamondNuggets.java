@@ -1,18 +1,11 @@
 package cz.kominekjan.diamondnuggets;
 
-import com.tchristofferson.configupdater.ConfigUpdater;
 import cz.kominekjan.diamondnuggets.item.Nugget;
-import cz.kominekjan.diamondnuggets.recipes.NuggetRecipe;
 import org.bukkit.NamespacedKey;
-import org.bukkit.OfflinePlayer;
 import org.bukkit.configuration.file.FileConfiguration;
-import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.Objects;
 import java.util.logging.Logger;
 
 public class DiamondNuggets extends JavaPlugin {
@@ -69,11 +62,6 @@ public class DiamondNuggets extends JavaPlugin {
 
         saveDefaultConfig();
         getConfig().options().copyDefaults(true);
-        try {
-            ConfigUpdater.update(this, "config.yml", new File(getDataFolder(), "config.yml"));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
         reloadConfig();
 
         config = getConfig();
