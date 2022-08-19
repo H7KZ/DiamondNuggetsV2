@@ -1,0 +1,13 @@
+name: DiamondNuggets
+version: '${project.version}'
+main: cz.kominekjan.diamondnuggets.DiamondNuggets
+api-version: 1.19
+authors: [ HonzaKOMI ]
+description: Diamond Nuggets Poggers
+website: https://kominekjan.cz/
+commands:
+  diamondnuggetsreload:
+    usage: /<command>
+    description: Reloads the diamond nuggets plugin
+    permission: diamondnuggets.reload
+    permission-message: You do not have permission to reload the diamond nuggets plugin
